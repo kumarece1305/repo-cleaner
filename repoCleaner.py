@@ -3,7 +3,7 @@ import datetime
 from github import Github
 
 # Your GitHub token (replace with your actual token, or load it from an environment variable for better security)
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "github_id"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
 # Read repos from masterRepoList.txt
